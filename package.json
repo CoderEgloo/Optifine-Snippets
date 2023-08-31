@@ -1,8 +1,9 @@
 {
   "name": "optifine-snippets",
   "displayName": "Optifine Snippets",
+  "publisher": "Egloo",
   "description": "Simple Snippets for Optifine development",
-  "repository": {"url": "https://github.com/CoderEgloo/py2app"},
+  "repository": {"url": "https://github.com/CoderEgloo/optifine-snippets"},
   "version": "0.0.1",
   "icon": "logo.png",
   "engines": {
