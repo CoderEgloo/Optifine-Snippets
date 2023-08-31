@@ -1,0 +1,21 @@
+{
+  "name": "optifine-snippets",
+  "displayName": "Optifine Snippets",
+  "description": "Simple Snippets for Optifine development",
+  "repository": {"url": "https://github.com/CoderEgloo/py2app"},
+  "version": "0.0.1",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

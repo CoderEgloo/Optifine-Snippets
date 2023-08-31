@@ -1,0 +1,388 @@
+{
+	"Pack.mcmeta-Data": {
+		"prefix": "pack.mcmeta",
+		"body": [
+			"{",
+      		"  \"pack\": {",
+			"    \"pack_format\": ${1:version-num},",
+			"    \"description\": \"${2:pack-desc}\"",
+			"  }",
+			"}"
+		],
+		"description": "create pack.mcmeta framework"
+
+	},
+	"Emissive.properties": {
+		"prefix": "suffix.emissive",
+		"body": [
+			"suffix.emissive=_e"
+		],
+		"description": ""
+
+	},
+	"skins.": {
+		"prefix": "skins.",
+		"body": [
+			"skins.${1:N}="
+		],
+		"description": ""
+
+	},
+	"weights.": {
+		"prefix": "weights.",
+		"body": [
+			"weights.${1:N}="
+		],
+		"description": "setting texture ratio"
+
+	},
+	"textures.": {
+		"prefix": "textures.",
+		"body": [
+			"textures.${1:N}="
+		],
+		"description": "declaring custom item textures"
+
+	},
+	"biome.": {
+		"prefix": "biome.",
+		"body": [
+			"biome.${1:N}="
+		],
+		"description": "customizing spawn biome"
+
+	},
+
+	"heights.": {
+		"prefix": "heights.",
+		"body": [
+			"heights.${1:N}="
+		],
+		"description": "customizing spawn height"
+
+	},
+	"name.": {
+		"prefix": "name.",
+		"body": [
+			"name.${1:N}="
+		],
+		"description": "customizing texture name"
+
+	},
+
+	"professions.": {
+		"prefix": "professions.",
+		"body": [
+			"professions.${1:N}="
+		],
+		"description": "texture based on villager profession"
+
+	},
+
+	"colors.": {
+		"prefix": "colors.",
+		"body": [
+			"colors.${1:N}="
+		],
+		"description": "texture based on collar/shulker color"
+
+	},
+
+	"baby.": {
+		"prefix": "baby.",
+		"body": [
+			"baby.${1:N}=${2|true,false|}"
+		],
+		"description": "mob age"
+
+	},
+
+	"health.": {
+		"prefix": "health.",
+		"body": [
+			"health.${1:N}="
+		],
+		"description": "setting texture based on mob health"
+
+	},
+
+	"moonPhase.": {
+		"prefix": "moonPhase.",
+		"body": [
+			"moonPhase.${1:N}="
+		],
+		"description": "texture based on in-game moon cycle"
+
+	},
+
+	"dayTime.": {
+		"prefix": "dayTime.",
+		"body": [
+			"dayTime.${1:N}="
+		],
+		"description": "texture based on in-game time"
+
+	},
+
+	"weather.": {
+		"prefix": "weather.",
+		"body": [
+			"weather.${1:N}=${2|clear,rain,thunder|}"
+		],
+		"description": "texture based on in-game weather"
+
+	},
+
+	"nbt.": {
+		"prefix": "nbt.N.TAG",
+		"body": [
+			"nbt.${1:N}.${2:TAG}="
+		],
+		"description": "texture based on mob size (slimes, mamgma cubes, phantoms)"
+
+	},
+
+	"blocks.": {
+		"prefix": "blocks.",
+		"body": [
+			"blocks.${1:N}="
+		],
+		"description": "texture based on block that entity is standing on"
+
+	},
+
+	"layer.solid": {
+		"prefix": "layer.solid",
+		"body": [
+			"layer.solid=${1:block}"
+		],
+		"description": "solid texture (shaderpack)"
+
+	},
+
+	"layer.cutout": {
+		"prefix": "layer.cutout",
+		"body": [
+			"layer.cutout=${1:block}"
+		],
+		"description": "cutout texture (shaderpack)"
+
+	},
+
+	"layer.translucent": {
+		"prefix": "layer.translucent",
+		"body": [
+			"layer.translucent=${1:block}"
+		],
+		"description": "translucent texture (shaderpack)"
+
+	},
+
+	"layer.cutout_mipped": {
+		"prefix": "layer.cutout_mipped",
+		"body": [
+			"layer.cutout_mipped=${1:block}"
+		],
+		"description": "Alpha, no blending texture (shaderpack)"
+
+	},
+
+	"method": {
+		"prefix": "method=",
+		"body": [
+			"method=${1|average,layered,cycle|}"
+		],
+		"description": ""
+
+	},
+
+	"cap": {
+		"prefix": "cap=",
+		"body": [
+			"cap=${1:count}"
+		],
+		"description": ""
+
+	},
+
+	"fade": {
+		"prefix": "fade=",
+		"body": [
+			"fade=${1:seconds}"
+		],
+		"description": ""
+
+	},
+
+	"useGlint": {
+		"prefix": "useGlint",
+		"body": [
+			"useGlint=${1|true,false|}"
+		],
+		"description": ""
+
+	},
+
+	"blur": {
+		"prefix": "blur",
+		"body": [
+			"blur${1|1,2,3|}=${2|1-64,1-3,1-3|}"
+		],
+		"description": "custom panaroma blur"
+
+	},
+
+	"overlay": {
+		"prefix": "overlay.N",
+		"body": [
+			"overlay.${1:N}.${2|top,bottom|}=${3:hex-color}"
+		],
+		"description": "custom panaroma color overlay"
+
+	},
+
+	"potion": {
+		"prefix": "potion.",
+		"body": [
+			"potion.${1|absorption,bad_omen,blindness,conduit_power,dolphins_grace,fire_resistance,glowing,haste,health_boost,hero_of_the_village,hunger,instant_damage,instant_health,invisibility,jump_boost,levitation,luck,mining_fatigue,nausea,night_vision,poison,regeneration,resistance,saturation,slow_falling,slowness,speed,strength,unluck,water_breathing,weakness,wither,water|}=${2:hex-color}"
+		],
+		"description": "setting custom potion color (color.properties)"
+
+	},
+
+	"egg": {
+		"prefix": "egg.",
+		"body": [
+			"egg.${1|shell,spots|}.${2:entity}=${3:hex-color}"
+		],
+		"description": "setting custom egg color (color.properties)"
+
+	},
+
+	"map": {
+		"prefix": "map.",
+		"body": [
+			"map.${1|air,black,black_terracotta,blue,blue_terracotta,brown,brown_terracotta,clay,cloth,cyan,cyan_terracotta,diamond,dirt,emerald,foliage,gold,grass,gray,gray_terracotta,green,green_terracotta,ice,iron,lapis,light_blue,light_blue_terracotta,light_gray,light_gray_terracotta,lime,lime_terracotta,magenta,magenta_terracotta,netherrack,obsidian,orange,orange_terracotta,pink,pink_terracotta,purple,purple_terracotta,quartz,red,red_terracotta,sand,stone,tnt,water,warped_hyphae,warped_nylium,warped_stem,warped_wart_block,white,white_terracotta,wood,yellow,yellow_terracotta|}=${2:hex-color}"
+		],
+		"description": "setting custom block color on maps (color.properties)"
+
+	},
+
+	"sheep": {
+		"prefix": "sheep.",
+		"body": [
+			"sheep.${1|white,orange,magenta,light_blue,yellow,lime,pink,gray,light_gray,cyan,purple,blue,brown,green,red,black|}=${2:hex-color}"
+		],
+		"description": "setting custom sheep color (color.properties)"
+
+	},
+
+	"collar": {
+		"prefix": "collar.",
+		"body": [
+			"collar.${1|white,orange,magenta,light_blue,yellow,lime,pink,gray,light_gray,cyan,purple,blue,brown,green,red,black|}=${2:hex-color}"
+		],
+		"description": "setting custom collar color (color.properties)"
+
+	},
+
+	"dye": {
+		"prefix": "dye.",
+		"body": [
+			"dye.${1|white,orange,magenta,light_blue,yellow,lime,pink,gray,light_gray,cyan,purple,blue,brown,green,red,black|}=${2:hex-color}"
+		],
+		"description": "setting custom base dye color (color.properties)"
+
+	},
+
+	"text": {
+		"prefix": "text.",
+		"body": [
+			"text.${1|boss,xpbar,sign,code|}=${2:hex-color}"
+		],
+		"description": "setting custom text color (color.properties)"
+
+	},
+
+	"screen": {
+		"prefix": "screen.",
+		"body": [
+			"screen.loading${1|.bar=,.outline=,.progress=,=|}${2:hex-color}"
+		],
+		"description": "setting custom screen (color.properties)"
+
+	},
+
+	"format": {
+		"prefix": "format.",
+		"body": [
+			"format=${1|fixed,vanilla,grid|}"
+		],
+		"description": "custom colormap (colormap.properties)"
+
+	},
+
+	"blocks": {
+		"prefix": "blocks=",
+		"body": [
+			"blocks=${1:blocks + optional properties}"
+		],
+		"description": "custom colormap (colormap.properties)"
+
+	},
+
+	"source": {
+		"prefix": "source=",
+		"body": [
+			"souce=${1:image}"
+		],
+		"description": "setting image for colormap (colormap.properties)"
+
+	},
+
+	"color": {
+		"prefix": "color=",
+		"body": [
+			"color=${1:hex-color}"
+		],
+		"description": "fixed rgb color (colormap.properties)"
+
+	},
+
+	"yVariance": {
+		"prefix": "yVariance=",
+		"body": [
+			"yVariance=${1:value}"
+		],
+		"description": "y-varinace noise for colormap.properties"
+
+	},
+
+	"yOffset": {
+		"prefix": "yOffset=",
+		"body": [
+			"yOffset=${1:value}"
+		],
+		"description": "offsetting y-value for colormap (colormap.properties)"
+
+	},
+
+	"matchTiles": {
+		"prefix": "matchTiles=",
+		"body": [
+			"matchTiles=${1:tile list}"
+		],
+		"description": "connected textures (ctm.properties)"
+
+	},
+
+	"weight": {
+		"prefix": "weight=",
+		"body": [
+			"weight=${1:value}"
+		],
+		"description": "connected textures weight ratio (ctm.properties)"
+
+	},
+
+}
